@@ -71,7 +71,7 @@ for (let code of CODES) {
   values[code] = { value: code }
 }
 
-exports['default'] = new GraphQLEnumType({
+exports.ISOUSState = new GraphQLEnumType({
   name: 'ISO3166_2',
   values
 })

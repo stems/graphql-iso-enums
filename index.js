@@ -1,5 +1,5 @@
-const ISOUSState = require('./types/state').default
-const ISOTerritory = require('./types/territory').default
+const { ISOUSState } = require('./types/ISOUSState')
+const { ISOTerritory } = require('./types/ISOTerritory')
 
 module.exports = {
   ISOUSState,

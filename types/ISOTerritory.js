@@ -255,7 +255,7 @@ for (let code of CODES) {
   values[code] = { value: code }
 }
 
-exports['default'] = new GraphQLEnumType({
+exports.ISOTerritory = new GraphQLEnumType({
   name: 'ISO3166_1',
   values
 })
