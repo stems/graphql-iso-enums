@@ -1,0 +1,21 @@
+{
+  "name": "graphql-iso-enums",
+  "version": "1.0.0",
+  "description": "Enum types in GraphQL for some ISO codes.",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel"
+  },
+  "keywords": [
+    "graphql",
+    "type",
+    "enum",
+    "iso",
+    "code"
+  ],
+  "author": "Andrew Carlson <acarl005@g.ucla.edu>",
+  "license": "MIT",
+  "peerDependencies": {
+    "graphql": "*"
+  }
+}
