@@ -1,6 +1,8 @@
 graphql-iso-enums
 =================
 
+Some GraphQL Enum Types to wrap some ISO Codes.
+
 ## Installation
 
 ```shell
