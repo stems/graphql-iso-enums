@@ -14,7 +14,11 @@ $ npm install --save graphql-iso-enums
 Here are the currently available types:
 
 ```js
-import { ISOUSState, ISOTerritory } from 'graphql-iso-enums'
+import {
+  ISOUSState,
+  ISOTerritory,
+  ISOLanguage
+} from 'graphql-iso-enums'
 ```
 
 Or, if you only want to load an individual type:
@@ -23,7 +27,7 @@ Or, if you only want to load an individual type:
 // get the GraphQL Enum Type
 import { ISOTerritory } from 'graphql-iso-enums/types/ISOTerritory'
 
-// get an array of the codes
+// get a plain object of the codes
 import { CODES as territoryCodes } from 'graphql-iso-enums/types/ISOTerritory'
 ```
 
