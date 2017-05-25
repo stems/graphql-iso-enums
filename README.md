@@ -31,3 +31,18 @@ import { ISOTerritory } from 'graphql-iso-enums/types/ISOTerritory'
 import { CODES as territoryCodes } from 'graphql-iso-enums/types/ISOTerritory'
 ```
 
+After adding the types to your schema, get the enum values (and human-readable forms) using an introspection query in GraphQL
+
+```graphql
+query getLanguages {
+  __type(name: "ISO639_1") {
+    enumValues {
+      name
+      description
+    }
+  }
+}
+```
+
+**Note:** The GraphQL type names are different than the exported property names.
+
