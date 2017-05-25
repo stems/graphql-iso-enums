@@ -196,7 +196,7 @@ for (let code in CODES) {
   }
 }
 
-exports.ISOTerritory = new GraphQLEnumType({
+exports.ISOLanguage = new GraphQLEnumType({
   name: 'ISO639_1',
   values
 })
