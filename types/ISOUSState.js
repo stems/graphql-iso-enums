@@ -76,6 +76,7 @@ for (let code in CODES) {
 
 exports.ISOUSState = new GraphQLEnumType({
   name: 'ISO3166_2',
+  description: 'US states',
   values
 })
 

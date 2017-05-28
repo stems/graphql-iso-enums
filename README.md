@@ -17,7 +17,8 @@ Here are the currently available types:
 import {
   ISOUSState,
   ISOTerritory,
-  ISOLanguage
+  ISOLanguage,
+  ISOCurrency
 } from 'graphql-iso-enums'
 ```
 

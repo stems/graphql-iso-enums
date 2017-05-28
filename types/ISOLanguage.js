@@ -198,6 +198,7 @@ for (let code in CODES) {
 
 exports.ISOLanguage = new GraphQLEnumType({
   name: 'ISO639_1',
+  description: 'languages',
   values
 })
 

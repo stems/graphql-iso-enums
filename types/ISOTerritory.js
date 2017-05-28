@@ -260,6 +260,7 @@ for (let code in CODES) {
 
 exports.ISOTerritory = new GraphQLEnumType({
   name: 'ISO3166_1',
+  description: 'countries and territories',
   values
 })
 
