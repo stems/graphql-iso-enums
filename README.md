@@ -47,3 +47,6 @@ query getLanguages {
 
 **Note:** The GraphQL type names are different than the exported property names.
 
+## Contributing
+
+Got some other ISO code in *your* GraphQL API? Fork, modify, and put in a pull request! With your help, we can assemble one module that becomes the go-to for ISO codes in GraphQL!
