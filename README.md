@@ -1,12 +1,12 @@
-graphql-iso-enums
+GraphQL ISO Enums
 =================
 
-Some GraphQL Enum Types to wrap some ISO Codes.
+### Some GraphQL Enum Types to wrap some ISO Codes.
 
 ## Installation
 
 ```shell
-$ npm install --save graphql-iso-enums
+$ npm install graphql-iso-enums
 ```
 
 ## Usage
@@ -20,6 +20,17 @@ import {
   ISOLanguage,
   ISOCurrency
 } from 'graphql-iso-enums'
+
+// then use them in your GraphQL schema
+const User = new GraphQLObjectType({
+  name: 'User',
+  fields: {
+    spokenLanguages: {
+      type: new GraphQLList(ISOLanguage),
+      resolve: () => { /* ... */ }
+    }
+  }
+})
 ```
 
 Or, if you only want to load an individual type:
